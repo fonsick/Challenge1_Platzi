@@ -1,0 +1,164 @@
+html {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', 'Open Sans';
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .logo-container {
+    display: flex;
+    margin: 30px 60px 70px;
+    height: 1vh;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .section-content {
+    display: flex;
+    height: 75vh;
+  }
+
+  .mockup {
+    margin-left: 60px;
+  }
+
+  .mockup img {
+    height: 500px;
+    padding-top: 30px;
+  }
+
+  .info-container {
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .title {
+    font-family: 'Poppins';
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .description p {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+  }
+
+  .button {
+    background: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins';
+    font-size: 1.05rem;
+    margin-top: 8px;
+    width: 190px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 1px 2px rgb(87, 85, 85);
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 6px 30px 30px;
+    box-sizing: content-box;
+  }
+
+  .icons .fab {
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      background-color: hsl(257, 40%, 49%);
+      background-image: url(/images/bg-mobile.svg);
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .logo img {
+      width: 120px;
+    }
+
+    .logo-container {
+      display: flex;
+      margin: 30px 40px 60px;
+    }
+
+    .section-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mockup {
+      margin: 0 40px;
+    }
+
+    .mockup img {
+      padding-top: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 40px 40px;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .description p {
+      font-size: 0.96rem;
+      text-align: center;
+    }
+
+    .button {
+      margin: 12px auto;
+      height: 36px;
+      width: 200px;
+      font-size: 0.8rem;
+    }
+
+    .icons .fab {
+      line-height: 30px;
+      height: 30px;
+      width: 30px;
+      margin: 6px;
+    }
+
+    footer {
+      justify-content: center;
+      margin: 0 0 20px;
+    }
+
+  }
