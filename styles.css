@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+html {
+    font-size: 62.5%;
+}
+
   body {
     margin: 0;
     width: 100%;
@@ -16,7 +20,7 @@
 
   .logo-container {
     display: flex;
-    margin: 30px 60px 70px;
+    padding: 30px 60px 70px;
     height: 1vh;
   }
 
@@ -39,31 +43,31 @@
   }
 
   .info-container {
-    margin-top: 84px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 65px;
   }
 
   .title {
     font-family: 'Poppins';
-    font-size: 2.3rem;
+    font-size: 3.6rem;
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
 
   .description p {
     font-family: 'Open Sans';
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   .button {
     background: white;
     color: hsl(257, 40%, 49%);
     font-family: 'Poppins';
-    font-size: 1.05rem;
-    margin-top: 8px;
+    font-size: 1.6rem;
+    margin-top: 26px;
     width: 190px;
     height: 48px;
     border-radius: 50px;
@@ -109,7 +113,8 @@
 
     .logo-container {
       display: flex;
-      margin: 30px 40px 60px;
+      margin-bottom: 67px;
+      padding: 30px 40px;
     }
 
     .section-content {
@@ -118,7 +123,7 @@
     }
 
     .mockup {
-      margin: 0 40px;
+      margin: 0 46px;
     }
 
     .mockup img {
@@ -131,24 +136,24 @@
     .info-container {
       display: flex;
       flex-direction: column;
-      margin: 50px 40px 40px;
+      margin: 50px 46px 40px;
     }
 
     .title {
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       text-align: center;
     }
 
     .description p {
-      font-size: 0.96rem;
+      font-size: 1.6rem;
       text-align: center;
     }
 
     .button {
-      margin: 12px auto;
-      height: 36px;
-      width: 200px;
-      font-size: 0.8rem;
+      margin: 24px auto;
+      height: 42px;
+      width: 206px;
+      font-size: 1.2rem;
     }
 
     .icons .fab {
